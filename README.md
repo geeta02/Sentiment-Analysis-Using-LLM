@@ -18,7 +18,7 @@ This project performs binary sentiment classification on Amazon product reviews 
 - Pre-trained `roberta-base` from Hugging Face Transformers
 - Fine-tuned using PyTorch and Hugging Face `Trainer` API
 
-## Results
+### Results
 
 | Metric                  | Value     |
 |-------------------------|-----------|
@@ -28,14 +28,14 @@ This project performs binary sentiment classification on Amazon product reviews 
 
 The use of class balancing techniques significantly improved the model’s ability to correctly classify underrepresented sentiment.
 
-## Technologies Used
+### Technologies Used
 - Python
 - Hugging Face Transformers
 - PyTorch
 - Scikit-learn
 - Google Colab (for training and GPU support)
 
-## Key Insights
+### Key Insights
 
 - Class balancing is critical when working with real-world, imbalanced datasets.
 - Back-translation increased data diversity and improved generalization.
