@@ -18,16 +18,6 @@ This project performs binary sentiment classification on Amazon product reviews 
 - Pre-trained `roberta-base` from Hugging Face Transformers
 - Fine-tuned using PyTorch and Hugging Face `Trainer` API
 
-### Results
-
-| Metric                  | Value     |
-|-------------------------|-----------|
-| **Accuracy**            | 96%       |
-| **F1 Score (Minority)** | 0.60      |
-| **F1 Score (Majority)** | 0.98      |
-
-The use of class balancing techniques significantly improved the model’s ability to correctly classify underrepresented sentiment.
-
 ### Technologies Used
 - Python
 - Hugging Face Transformers
